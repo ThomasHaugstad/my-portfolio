@@ -3,10 +3,10 @@ function Home() {
     <main>
       <section className="hero-split">
         <div className="hero-image">
-          <img
-            src="/profile.png"
-            alt="Portrait"
-          />
+ <img
+  src={`${import.meta.env.BASE_URL}profile.png`}
+  alt="Portrait"
+/>
         </div>
 
         <div className="hero-text">
