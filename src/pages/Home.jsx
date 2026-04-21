@@ -26,10 +26,10 @@ function Home() {
         <p>
           I’m currently developing my skills in software engineering and front-end & back-end
           development. I enjoy building applications that combine functionality,
-          design, and user experience. <br></br>
+          design, and user experience. <br />
 
           I have experience with Java, Python, C#, and JavaScript, and I am always eager to learn new technologies and frameworks. I am passionate about creating innovative solutions that make a positive impact on users and businesses alike.
-          <br> </br>
+          
           I am yet to have any industry experience, but I am actively seeking internships and entry-level positions to gain practical experience and contribute to real-world projects. I am excited about the opportunities that lie ahead and am committed to continuous learning and growth in the field of software engineering.
         </p>
       </section>
