@@ -221,3 +221,21 @@ a {
   background: #8f3dff;
 }
 
+.contact-link {
+  color: #8f3dff;
+  transition: 0.2s ease;
+}
+
+.contact-link:hover {
+  color: white;
+}
+
+.blog-post p {
+  text-align: center;
+}
+
+.blog-post h3,
+.blog-post h4,
+.blog-post h5 {
+  text-align: center;
+}

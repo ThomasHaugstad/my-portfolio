@@ -61,18 +61,38 @@ function Home() {
 
       <section id="contact" className="section dark-section">
         <h2>Contact</h2>
-        <p>Email: thomasgrannes@hotmail.no</p>
-        <p>GitHub: github.com/ThomasHaugstad</p>
+<p>
+  Email:{" "}
+  <a href="mailto:thomasgrannes@hotmail.no" className="contact-link">
+    thomasgrannes@hotmail.no
+  </a>
+</p>
+
+<p>
+  GitHub:{" "}
+  <a
+    href="https://github.com/ThomasHaugstad"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-link"
+  >
+    github.com/ThomasHaugstad
+  </a>
+</p>
       </section>
     </main>
   );
 }
 
-function ProjectCard({ title, desc }) {
+function ProjectCard({ title, desc, link }) {
   return (
     <div className="project-card">
       <h3>{title}</h3>
       <p>{desc}</p>
+
+      <a className="project-link" href={link} target="_blank" rel="noopener noreferrer">
+        View Project
+      </a>
     </div>
   );
 }
