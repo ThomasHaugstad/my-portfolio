@@ -207,3 +207,16 @@ a {
     padding: 3rem 2rem;
   }
 }
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+  background: #5b2cff;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  background: #8f3dff;
+}
