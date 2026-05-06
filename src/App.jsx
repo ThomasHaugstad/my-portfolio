@@ -5,9 +5,7 @@ import Blog from './pages/Blog';
 function App() {
   return (
     <div className="app">
-      <div className="top-banner">
-        Personal Portfolio Website
-      </div>
+
 
       <nav className="navbar">
         <Link to="/" className="nav-logo">Thomas Haugstad</Link>

@@ -38,17 +38,22 @@ function Home() {
         <h2>Projects</h2>
         <div className="projects-grid">
           <ProjectCard
-            title="Portfolio Website"
-            desc="A responsive React portfolio website with routing, modern styling, and a blog page."
-          />
-          <ProjectCard
-            title="Cloud Computing Project"
-            desc="A intrusion detection system built using Google Cloud services, utilizing machine learning for anomaly detection and real-time monitoring."
-          />
-          <ProjectCard
-            title="Fitness-App"
-            desc="A project we made as a team of four. This app allows users to monitor BMI and track workouts."
-          />
+  title="Portfolio Website"
+  desc="A responsive React portfolio website with routing, modern styling, and a blog page."
+  link="https://github.com/ThomasHaugstad/my-portfolio"
+/>
+
+<ProjectCard
+  title="Cloud Computing Project"
+  desc="An intrusion detection system built using Google Cloud services, utilizing machine learning for anomaly detection and real-time monitoring."
+  link="https://github.com/ThomasHaugstad/Intrusion-Detection-System"
+/>
+
+<ProjectCard
+  title="Fitness-App"
+  desc="A project we made as a team of four. This app allows users to monitor BMI and track workouts."
+  link="https://github.com/ThomasHaugstad/FitnessApp"
+/>
         </div>
       </section>
 
